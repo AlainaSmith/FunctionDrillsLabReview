@@ -1,0 +1,42 @@
+Question: Why does the [i] make such a difference in the array?
+I understand that the array is being logged as many times
+as the lenght of the array.
+
+for (let i = letters.length-1; i >= 0; i--){
+  console.log(letters[i])
+}
+
+Again in problem 16 Functions FunctionDrillsLab
+
+
+Problem 15:  FunctionDrillsLab
+
+Why is the function being called like that?
+
+const bigOrSmall = (arr) => {
+  answers = []
+  for (let i = 0; i < bigOrSmall.length; i++){
+    if(arr[i] > 100){
+      answers.push('big')
+    } else {
+      answers.push('small')
+    }
+  }
+  return answers
+}
+
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+
+"Return the answers array inside of the function to a variable called
+   `arrayEvaluator`"
+
+
+
+Problem 21:
+I am not sure where or how the comparison value comes into play 
+
+
+
+I thought if you are apart of OUTER SCOPE, you can not reach the INNER SCOPE?
+
+Questions on 22 about that.
